@@ -2,7 +2,7 @@ import NextApp from 'next/app';
 import Router, { withRouter } from 'next/router';
 import { Provider } from 'next-auth/client';
 import '../styles/globals.css';
-import '../styles/style.css';
+// import '../styles/style.css';
 // import '../styles/player.css';
 
 const App = ({ children }) => {

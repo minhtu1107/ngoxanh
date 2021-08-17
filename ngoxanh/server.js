@@ -15,7 +15,7 @@ app.prepare().then(() => {
     return handle(req, res);
   });
 
-	server.listen(httpsPort, function () {
-	  console.log('Https listening on *: ' + httpsPort);
+	server.listen(port, function () {
+	  console.log('Https listening on *: ' + port);
 	});
 });
