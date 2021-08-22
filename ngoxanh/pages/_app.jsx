@@ -19,9 +19,9 @@ class MyApp extends NextApp {
 
     return (
       <App>
-        <Provider options={{ site: process.env.NEXTAUTH_URL }}>
+        {/* <Provider options={{ site: process.env.NEXTAUTH_URL }}> */}
           <Component {...pageProps} />
-        </Provider>
+        {/* </Provider> */}
       </App>
     );
   }

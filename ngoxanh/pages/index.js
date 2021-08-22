@@ -1,6 +1,25 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { getSessionFromContext } from '../services/auth';
+import { getProducts } from '../services/product';
+
 import styles from '../styles/Home.module.css'
+
+export async function getServerSideProps(context) {
+  // const user = await getSessionFromContext(context);
+  // if (!user) {
+    // redirectTo(context, '/auth/signin');
+  // }
+
+  const products = await getProducts().then(res => { return res.data });
+
+  return {
+    props: {
+      // user,
+      t:[]
+    }
+  };
+}
 
 export default function Home() {
   return (
