@@ -13,8 +13,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 .footer {
@@ -111,6 +111,16 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.visually {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 @media (max-width: 600px) {

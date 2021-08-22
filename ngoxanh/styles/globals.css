@@ -14,3 +14,46 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.search-box {
+  display: flex;
+  align-items:center;
+  margin-top:100px;
+}
+
+.search-input-container {
+  /*border-color: darkgray;
+  border-style:solid;
+  border-width: 2px;
+  border-radius:5px;*/
+  width:80%;
+  height:50px;
+  display: flex;
+  align-items:center;
+}
+
+.search-input {
+  border-color: darkgray;
+  border-style:solid;
+  border-width: 2px;
+  border-radius:5px;
+  flex:1;
+  height:inherit;
+  font-size:25px;
+  padding:10px;
+}
+
+.search-btn-container {
+  align-self:center;
+  flex-grow:1;
+  display:flex;
+  justify-content:center;
+}
+
+.search-btn {
+  width:100px;
+  height:40px;
+}
+
+
