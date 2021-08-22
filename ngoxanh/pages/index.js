@@ -11,12 +11,18 @@ export async function getServerSideProps(context) {
     // redirectTo(context, '/auth/signin');
   // }
 
-  const products = await getProducts().then(res => { return res.data });
+  const products = await getProducts()
+  /*.then(res => { 
+      console.log(res.data);
+      return res.data;
+    });*/
 
+    console.log(products.data);
   return {
     props: {
       // user,
-      t:[]
+      // products,
+      t:[],
     }
   };
 }
