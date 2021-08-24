@@ -56,4 +56,37 @@ a {
   height:40px;
 }
 
+.top-product-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+}
 
+.card-img-container {
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.card-img-custom {
+  height: inherit;
+}
+
+.top-product-title {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.top-product {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.product {
+  background-color: lavender;
+}
