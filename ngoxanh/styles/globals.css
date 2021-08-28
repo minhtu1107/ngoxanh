@@ -57,9 +57,9 @@ a {
 }
 
 .top-product-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  align-self: flex-start; */
   width: 100%;
 }
 
@@ -81,12 +81,24 @@ a {
 
 .top-product {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   margin-left: 50px;
+  margin-right: 50px;
+}
+
+.view-all {
   margin-right: 50px;
 }
 
 .product {
   background-color: lavender;
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+
+.card-product-body {
+  min-height: 100px;
+  max-height: 100px;
 }

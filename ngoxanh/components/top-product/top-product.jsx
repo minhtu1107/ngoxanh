@@ -9,16 +9,17 @@ const TopProduct = (props) => {
     return (
       (props.products != undefined && props.products.length > 0)?props.products.map(p => (
         <div key={p.id} className='product'>
-          <Card style={{ width: '250px' }}>
+          {/* <Card style={{ width: '250px' }}> */}
+          <Card>
             <div className='card-img-container'>
               <Card.Img variant='top' src={p.image} className='card-img-custom' />
             </div>
-            <Card.Body>
+            <Card.Body className='card-product-body'>
               <Card.Title>{p.title}</Card.Title>
               <Card.Text>
-                {p.short_description}
+                {p.short_description.length>=120? p.short_description.substr(0, 120) + '...' : p.short_description}
               </Card.Text>
-              <Card.Link href="#">Chi tiết</Card.Link>
+              {/* <Card.Link href="#">Chi tiết</Card.Link> */}
             </Card.Body>
           </Card>
         </div>
@@ -30,7 +31,8 @@ const TopProduct = (props) => {
 
   return (
     <div className='top-product-container'>
-      <div className='top-product-title'>Xem nhiều nhất</div>
+      <div className='top-product-title'>Sản phẩm mới</div>
+      <div className='view-all'>Xem tất cả</div>
       <div className='top-product'>
         {renderTopProduct()}
       </div>
