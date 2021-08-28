@@ -14,7 +14,7 @@ export async function getServerSideProps(context) {
     // redirectTo(context, '/auth/signin');
   // }
 
-  const products = await getProducts()
+  // const products = await getProducts();
   /*.then(res => { 
       console.log(res.data);
       return res.data;
@@ -25,7 +25,8 @@ export async function getServerSideProps(context) {
   return {
     props: {
       // user,
-      products: products.data.data,
+      products: [],
+      // products: products.data.data,
     }
   };
 }

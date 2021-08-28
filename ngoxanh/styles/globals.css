@@ -6,10 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -89,6 +89,9 @@ a {
 
 .view-all {
   margin-right: 50px;
+  float: right;
+  cursor: pointer;
+  color: blue;
 }
 
 .product {
