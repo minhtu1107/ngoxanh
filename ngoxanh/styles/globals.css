@@ -15,6 +15,33 @@ body {
   box-sizing: border-box;
 }
 
+.cover-header {
+  width: 100%;
+}
+
+.cover-img {
+  height: 250px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logo-img {
+
+}
+
+.search-header-container {
+  flex-grow: 1;
+}
+
+.search-header {
+  float: right;
+}
 
 .search-box {
   display: flex;
