@@ -7,6 +7,7 @@ import { getProducts } from '../services/product';
 import styles from '../styles/Home.module.css'
 
 import TopProduct from './../components/top-product/top-product';
+import sampleData from '../public/getProducts.json'
 
 export async function getServerSideProps(context) {
   // const user = await getSessionFromContext(context);
@@ -25,7 +26,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       // user,
-      products: [],
+      products: sampleData.data,
       // products: products.data.data,
     }
   };

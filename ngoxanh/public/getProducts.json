@@ -1,0 +1,332 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "id": "1",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "2",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "3",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    }
+  ],
+  "dataList": [
+    {
+      "id": "1",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "2",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "3",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "4",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "5",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "6",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "7",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "8",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "9",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "10",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "11",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "12",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "13",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "14",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "15",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "16",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "17",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "18",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "19",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "20",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "21",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "22",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "23",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "24",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "25",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "26",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "27",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "28",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "29",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "30",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    },
+    {
+      "id": "31",
+      "name": "M\u00ec rau c\u1ee7",
+      "description": "\u2618 Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)\r\n\u2618 B\u1ed9t rau c\u1ee7 \u0111\u01b0\u1ee3c s\u1ea5y l\u1ea1nh gi\u00fap \u0111\u1ea3m b\u1ea3o gi\u1eef l\u1ea1i t\u1ed1i \u0111a gi\u00e1 tr\u1ecb dinh d\u01b0\u1ee1ng v\u00e0 m\u00e0u s\u1eafc c\u1ee7a rau c\u1ee7.\r\n\u0110\u00e2y l\u00e0 m\u1ed9t l\u1ef1a ch\u1ecdn tuy\u1ec7t v\u1eddi nh\u1eb1m thay \u0111\u1ed5i th\u1ef1c \u0111\u01a1n h\u00e0ng ng\u00e0y cho nh\u1eefng ai \u0111ang gi\u1ea3m c\u00e2n, \u0111ang theo th\u1ef1c d\u01b0\u1ee1ng, eat clean\u2026 \u0110\u1eb7c bi\u1ec7t l\u00e0 l\u1ef1a ch\u1ecdn h\u1ea5p d\u1eabn cho nh\u1eefng b\u00e9 l\u01b0\u1eddi \u0103n rau hay \u0111ang \u0103n d\u1eb7m; ng\u01b0\u1eddi \u0103n chay.",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:09:27",
+      "image": "\/mi_rau_cu.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: 85% g\u1ea1o, 15% b\u1ed9t rau c\u1ee7 theo m\u00f9a (B\u00f3 x\u00f4i, c\u1ee7 d\u1ec1n, ch\u00f9m ng\u00e2y, b\u00ed \u0111\u1ecf, \u0111\u1eadu bi\u1ebfc)"
+    },
+    {
+      "id": "32",
+      "name": "M\u00ec g\u1ea1o l\u1ee9c",
+      "description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g\r\nH\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng: \r\nM\u1ef3 n\u1ea5u : \r\nB1 : R\u1eeda m\u1ef3 b\u1eb1ng n\u01b0\u1edbc, \u0111\u1ec3 r\u00e1o 3-5ph\u00fat \u0111\u1ec3 s\u1ee3i ph\u1edf m\u1ec1m.Cho m\u1ef3 v\u00e0o n\u01b0\u1edbc \u0111ang s\u00f4i kho\u1ea3ng 2-3 ph\u00fat \r\nB2 : L\u1ea5y m\u1ef3 ra tr\u00e1ng qua n\u01b0\u1edbc l\u1ea1nh kho\u1ea3ng 30gi\u00e2y \r\nB3 : Cho m\u1ef3 v\u00e0o n\u1ea5u c\u00f9ng n\u01b0\u1edbc d\u00f9ng kho\u1ea3ng 2 ph\u00fat + C\u00f3 th\u1ec3 s\u1eed d\u1ee5ng cho m\u00f3n M\u1ef3 x\u00e0o , M\u1ef3 tr\u1ed9n + C\u1eaft nh\u1ecf sau khi n\u1ea5u d\u00f9ng cho tr\u1ebb \u0103n d\u1eb7m . \r\nB\u1ea3o qu\u1ea3n : N\u01a1i tho\u00e1ng m\u00e1t, tr\u00e1nh \u00e1nh n\u1eafng m\u1eb7t tr\u1eddi.\r\nM\u00ec c\u00f3 2 lo\u1ea1i S\u1ee2I B\u00daN V\u00c0 S\u1ee2I PH\u1ede",
+      "created_date": "2021-08-16 00:28:39",
+      "modified_date": "2021-08-24 09:08:19",
+      "image": "\/mi_gao_luc.jpg",
+      "short_description": "Th\u00e0nh ph\u1ea7n: g\u1ea1o l\u1ee9t xay v\u00e0 n\u01b0\u1edbc s\u1ea1ch \r\nKh\u1ed1i l\u01b0\u1ee3ng: 150g"
+    },
+    {
+      "id": "33",
+      "name": "Men s\u1eefa chua",
+      "description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. \r\nS\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00ean men t\u1ef1 nhi\u00ean ch\u1ee9a d\u1ed3i d\u00e0o l\u1ee3i khu\u1ea9n Bacillus subtilis, Lactobacilus, Bifidobacteria,\u2026 v\u00e0 kh\u00f4ng ch\u1ee9a ph\u1ee5 gia, h\u00f3a ch\u1ea5t b\u1ea3o qu\u1ea3n.\r\n      \u2661\u2661\u2661\u2661\u2661\r\n?? Men S\u1eefa chua thu\u1ea7n chay c\u00f3 th\u1ec3 l\u00e0m g\u00ec?\r\n? S\u1eefa Chua s\u00e1nh \u0111\u1eb7c t\u1eeb s\u1eefa th\u1ea3o m\u1ed9c\r\n? S\u1eefa chua u\u1ed1ng hoa qu\u1ea3\r\n? M\u1eadt ong l\u00ean men\r\n? N\u01b0\u1edbc hoa qu\u1ea3 c\u00f3 ga\r\n? Sinh t\u1ed1, n\u01b0\u1edbc \u00e9p l\u00ean men\r\n? B\u00e1nh m\u1ef3, b\u00e1nh bao, b\u00e1nh b\u00f2, b\u00e1nh quy\r\n? Ph\u00f4 Mai thu\u1ea7n chay\r\n? Kem d\u01b0\u1ee1ng da\r\n? Mu\u1ed1i chua D\u01b0a, C\u00e0, Kim chi, T\u1ea3o, \u0111\u1eadu Ph\u1ee5\r\n? \u1ee6 r\u00e1c nh\u00e0 b\u1ebfp\r\nV\u00e0 nhi\u1ec1u \u1ee9ng d\u1ee5ng kh\u00e1c n\u1eefa\r\n1 g\u00f3i men 5 gr c\u00f3 th\u1ec3 \u1ee7 v\u00e0 l\u00e0m \u0111\u01b0\u1ee3c 1 l\u00edt s\u1eefa chua",
+      "created_date": "2021-08-16 00:28:52",
+      "modified_date": "2021-08-24 09:11:00",
+      "image": "\/men_sua_chua.jpg",
+      "short_description": "Men s\u1eefa chua thu\u1ea7n chay \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb:\r\n- H\u1ea1t \u0110i\u1ec1u c\u1ed5 B\u00ecnh Ph\u01b0\u1edbc, \r\n- C\u1ed1t d\u1eeba h\u1eefu c\u01a1 B\u1ebfn Tre Vietcoco, \r\n- Th\u1ed1t N\u1ed1t truy\u1ec1n th\u1ed1ng Ngon L\u00e0nh An Giang. "
+    }
+  ],
+  "headers": []
+}

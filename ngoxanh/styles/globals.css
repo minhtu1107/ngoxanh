@@ -95,13 +95,25 @@ body {
 }
 
 .product {
-  background-color: lavender;
   width: 20%;
   float: left;
-  margin: 10px;
+  padding: 10px;
+}
+
+.product-card {
+  background-color: lavender;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-desc {
+  font-size: 14px;
 }
 
 .card-product-body {
-  min-height: 100px;
-  max-height: 100px;
+  height: 125px;
+  padding: 7px;
 }
