@@ -1,3 +1,4 @@
+import Router from 'next/router';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -5,7 +6,7 @@ const Products = (props) => {
   const shortDescLength = 120;
   return (
     (props.products != undefined && props.products.length > 0) ? props.products.map(p => (
-      <div key={p.id} className='product'>
+      <a key={p.id} className='product' onClick={()=>{Router.push(`/product/${p.id}`);}}>
         <Card className='product-card'>
           <div className='card-img-container'>
             <Card.Img variant='top' src={p.image} className='card-img-custom' />
@@ -20,7 +21,7 @@ const Products = (props) => {
             {/* <Card.Link href="#">Chi tiết</Card.Link> */}
           </Card.Body>
         </Card>
-      </div>
+      </a>
     )) : (<div>
       Không có sản phẩm
     </div>)

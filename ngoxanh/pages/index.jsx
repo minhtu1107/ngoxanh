@@ -6,7 +6,7 @@ import { getProducts } from '../services/product';
 
 import styles from '../styles/Home.module.css'
 
-import TopProduct from './../components/top-product/top-product';
+import TopProduct from '../components/top-product/top-product';
 import sampleData from '../public/getProducts.json'
 
 export async function getServerSideProps(context) {
