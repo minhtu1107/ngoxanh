@@ -27,12 +27,21 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .logo-img {
 
+}
+
+.sticky-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: antiquewhite;
 }
 
 .search-header-container {
