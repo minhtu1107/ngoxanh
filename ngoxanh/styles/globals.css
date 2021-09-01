@@ -32,7 +32,20 @@ body {
 }
 
 .logo-img {
+  border-radius: 50%;
+  width: auto;
+  height: inherit;
+  padding: 5px;
+  cursor: pointer;
+}
 
+.header-title-sticky {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-title {
+  cursor: pointer;
 }
 
 .sticky-logo {
@@ -42,6 +55,7 @@ body {
   right: 0;
   z-index: 1;
   background-color: antiquewhite;
+  height: 50px;
 }
 
 .search-header-container {
@@ -113,6 +127,8 @@ body {
 .top-product-title {
   font-size: 25px;
   text-decoration: underline;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
 .top-product {
@@ -153,4 +169,35 @@ body {
 .card-product-body {
   height: 125px;
   padding: 7px;
+}
+
+.product-detail-container {
+  margin-top: 50px;
+}
+
+.product-detail-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+}
+
+.product-detail-img {
+  height: 450px;
+  width: auto;
+}
+
+.desc-container {
+  display: flex;
+}
+
+.product-detail-desc-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product-detail-desc {
+  padding-top: 10px;
+  padding-right: 50px;
+  text-align: justify;
 }
