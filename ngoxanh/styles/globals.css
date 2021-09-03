@@ -201,3 +201,100 @@ body {
   padding-right: 50px;
   text-align: justify;
 }
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.admin-container {
+  margin-top: 50px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+.menu-btn-delim::after {
+  content: '';
+  margin-left: 10px;
+  margin-right: 10px;
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
+.product-management-container {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.product-management-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+/* .product-title-header {
+  display: flex;
+  width: 80vw;
+  background-color: darkgray;
+  text-align: center;
+} */
+
+.col-id {
+  width: 5%;
+}
+
+.col-name {
+  width: 60%;
+}
+
+.col-option {
+  width: 35%;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse:collapse;
+  color:#000;
+}
+
+.product-table td, .product-table th { 
+  padding:5px;
+  border:1px solid #000; 
+}
+
+.product-table th { 
+  background-color:darkgray;
+}
+
+.product-table td { 
+  /* height: 50px; */
+}
+
+.option-btn {
+  width: 3rem;
+  text-align: center;
+  background: ghostwhite;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-table-header-sticky {
+  position: sticky;
+  top: 50px;
+  z-index: 1;
+  background-color: antiquewhite;
+}

@@ -12,7 +12,15 @@ const isAdmin = async (context) => {
 
 const getSessionFromContext = async (context) => {
   const session = parseCookies(context);
-  let t = JSON.parse(session);
+  console.log('session ' + session);
+
+  if(!session || session.session_token===undefined) {
+    console.log('session.session_token ' + session.session_token);
+    return null;
+  }
+   
+  console.log('session.session_token ' + session.session_token);
+  let t = JSON.parse(session.session_token);
   if (!t) {
     return null;
   }
@@ -34,9 +42,14 @@ const setUserCookie = (context, key, data) => {
   setCookie(context, key, JSON.stringify(data), options);
 }
 
+const deleteUserCookie = (context, key, path) => {
+  destroyCookie(context, key, { path: path });
+}
+
 export {
   isAdmin,
   getSessionFromContext,
   getToken,
   setUserCookie,
+  deleteUserCookie,
 };
