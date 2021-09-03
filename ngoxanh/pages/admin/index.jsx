@@ -14,7 +14,7 @@ export async function getServerSideProps(context) {
     redirectTo(context, '/admin/login');
   }
 
-  console.log('user ' + user.userName)
+  // console.log('user ' + user.userName);
   return {
     props: {
       user,
