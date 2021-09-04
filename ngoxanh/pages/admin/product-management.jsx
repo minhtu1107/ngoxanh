@@ -1,15 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/router';
+import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
 
-import { Edit, Delete } from '@material-ui/icons';
+import { Edit, Delete, AddBox } from '@material-ui/icons';
 
 // import 'bootstrap/dist/css/bootstrap.css';
 
 import AdminHeader from '../../components/admin/header';
 
 import sampleData from '../../public/getProducts.json';
+import AddProduct from './add-product';
 
 export async function getServerSideProps(context) {
   const user = await getSessionFromContext(context);
@@ -45,6 +46,10 @@ const ProductManagement = (props) => {
       window.removeEventListener('scroll', () => handleScroll);
     };
   }, []);
+
+  const AddProduct = () => {
+    Router.push('/admin/add-product');
+  }
 
   const renderProductTable = () => {
     return (
@@ -82,7 +87,15 @@ const ProductManagement = (props) => {
               <tr>
                 <th className='col-id'>Id</th>
                 <th className='col-name'>Tên sản phẩm</th>
-                <th className='col-option'>Tùy chỉnh</th>
+                <th className='col-option'>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}}>
+                    <div style={{flex:1}}>Tùy chỉnh</div>
+                    <div className='option-btn' onClick={AddProduct}>
+                      <AddBox style={{verticalAlign:'midde'}}/>
+                      <div>Them</div>
+                    </div>
+                  </div>
+                </th>
               </tr>
             </thead>
             <tbody>

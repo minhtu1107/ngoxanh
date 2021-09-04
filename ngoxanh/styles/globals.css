@@ -298,3 +298,31 @@ body {
   z-index: 1;
   background-color: antiquewhite;
 }
+
+.add-product-container {
+  
+}
+
+.add-product-table {
+  width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-collapse: unset;
+}
+
+.product-field {
+  width: 20%;
+}
+
+.product-value {
+  width: 80%;
+}
+
+.quill-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ql-editor{
+  min-height:200px;
+}
