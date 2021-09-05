@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
+import { getProducts, deleteProduct } from '../../services/product';
 
 import { Edit, Delete, AddBox } from '@material-ui/icons';
 
@@ -9,8 +10,8 @@ import { Edit, Delete, AddBox } from '@material-ui/icons';
 
 import AdminHeader from '../../components/admin/header';
 
-import sampleData from '../../public/getProducts.json';
-import AddProduct from './add-product';
+// import sampleData from '../../public/getProducts.json';
+// import AddProduct from './add-product';
 
 export async function getServerSideProps(context) {
   const user = await getSessionFromContext(context);
@@ -18,12 +19,19 @@ export async function getServerSideProps(context) {
     redirectTo(context, '/admin/login');
   }
 
-  console.log('user ' + user.userName);
-  
+  // console.log('user ' + user.userName);
+  const products = await getProducts();
+  /*.then(res => { 
+      console.log(res.data);
+      return res.data;
+    });*/
+    
+  console.log(products.data.data);
+
   return {
     props: {
       user,
-      products: sampleData.dataList,
+      products: products.data.data,
     }
   };
 }

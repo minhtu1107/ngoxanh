@@ -3,19 +3,23 @@ import { getToken } from "../../services/auth";
 import { getDefaultHeaders } from "../../services/util";
 
 export default async (req, res) => {
-  const token = await getToken({ req });
-  const headers = getDefaultHeaders(token);
+  // const token = await getToken({ req });
+  // const headers = getDefaultHeaders(token);
   const params = {
     method: req.method,
     url: `${process.env.API_BASE_URL}/${req.query.slug.join('/')}`,
-    headers: headers,
-    data: req.body,
+    headers: {
+      'Content-Type':'x-www-form-urlencoded',
+    },
+    data: {
+      'name':req.body.name,
+    },
     params: { id: req.query.id || -1,
               page: req.query.page || -1
             }
   };
 
-  console.log("request " + JSON.stringify(req.query));
+  console.log("request " + JSON.stringify(req.body));
 
   debugger
   return axios(params)

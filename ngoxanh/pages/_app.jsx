@@ -1,14 +1,19 @@
+import React, { useState } from 'react';
 import NextApp from 'next/app';
 import Router, { withRouter } from 'next/router';
 import { Provider } from 'next-auth/client';
 import '../styles/globals.css';
-// import '../styles/style.css';
-// import '../styles/player.css';
+
+import ReactLoading from 'react-loading';
 
 const App = ({ children }) => {
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <>
       {children}
+      {isLoading && (<div className='loading'>
+        <ReactLoading type='spinningBubbles' color='#0d6efd' />
+      </div>)}
     </>
   );
 }

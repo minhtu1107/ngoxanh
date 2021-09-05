@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router';
+import Router from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
 import Button from 'react-bootstrap/Button';
@@ -17,6 +17,7 @@ import 'react-dropzone-uploader/dist/styles.css';
 import Dropzone from 'react-dropzone-uploader';
 
 import AdminHeader from '../../components/admin/header';
+import { createProduct } from '../../services/product';
 
 export async function getServerSideProps(context) {
   const user = await getSessionFromContext(context);
@@ -33,13 +34,14 @@ export async function getServerSideProps(context) {
 }
 
 const AddProduct = (props) => {
+  const [name, setName] = useState('');
+  const [desc, setDesc] = useState('desc');
   const [shortDesc, setShortDesc] = useState('short desc');
   const onShortDescChange = (content) => {
     console.log('onChange', content);
     setShortDesc(content);
   }
 
-  const [desc, setDesc] = useState('desc');
   const onDescChange = (content) => {
     console.log('onChange', content);
     setDesc(content);
@@ -55,6 +57,36 @@ const AddProduct = (props) => {
   const handleSubmit = (files, allFiles) => {
     console.log(files.map(f => f.meta))
     allFiles.forEach(f => f.remove())
+  }
+
+  const handleProductName = (e) => {
+    let {value} = e.target;
+    setName({
+      ...name,
+      'name': value
+    })
+  }
+
+  const editProduct = () => {
+    if(name==='') {
+
+    } else {
+      let body = {};
+      body['name'] = name;
+      body['desc'] = desc;
+      body['shortDesc'] = shortDesc;
+
+      createProduct(body)
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(()=> {
+        // Router.push('/admin/product-management');
+      })
+    }
   }
 
   return (
@@ -75,6 +107,7 @@ const AddProduct = (props) => {
                   id='product-name'
                   placeholder=''
                   name='product-name' 
+                  onChange={handleProductName}
                 />  
               </td>
             </tr>
@@ -133,7 +166,7 @@ const AddProduct = (props) => {
           </tbody>
         </table>
         <div style={{textAlign:'center', padding:'30px'}}>
-          <Button variant="primary">Lưu</Button>
+          <Button variant="primary" onClick={editProduct}>Lưu</Button>
         </div>
       </div>
     </div>
