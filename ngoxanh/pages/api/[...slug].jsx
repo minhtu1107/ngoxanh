@@ -11,9 +11,7 @@ export default async (req, res) => {
     headers: {
       'Content-Type':'x-www-form-urlencoded',
     },
-    data: {
-      'name':req.body.name,
-    },
+    data: req.body,
     params: { id: req.query.id || -1,
               page: req.query.page || -1
             }

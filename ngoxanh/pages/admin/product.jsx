@@ -1,4 +1,5 @@
-import Router from 'next/router';
+import React, { useState } from 'react';
+import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
 import Button from 'react-bootstrap/Button';
@@ -8,7 +9,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 // import sampleData from '../../public/getProducts.json';
 
-import React, { Component, useState } from 'react';
+import { getProducts } from '../../services/product';
+
 // import ReactQuill from 'react-quill';
 const ReactQuill = typeof window === 'object' ? require('react-quill') : () => false;
 import 'react-quill/dist/quill.snow.css';
@@ -25,19 +27,31 @@ export async function getServerSideProps(context) {
     redirectTo(context, '/admin/login');
   }
 
-  // console.log('user ' + user.userName);
-  return {
+  let ret = {
     props: {
       user,
     }
   };
+  const id = parseInt(context.query.pid) || -1;
+  console.log('id ' + JSON.stringify(context.query));
+  if(id>0) {
+    let param = {};
+    param['id'] = id;
+    const temp = await getProducts(param);
+    if(temp.data.data.length>0) {
+      console.log(temp.data.data[0]);
+      ret.props.product = temp.data.data[0];
+    }
+  }
+
+  return ret;
 }
 
 const AddProduct = (props) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [name, setName] = useState('');
-  const [desc, setDesc] = useState('desc');
-  const [shortDesc, setShortDesc] = useState('short desc');
+  const [name, setName] = useState(props.product!=undefined?props.product.name:'');
+  const [desc, setDesc] = useState(props.product!=undefined?props.product.description:'');
+  const [shortDesc, setShortDesc] = useState(props.product!=undefined?props.product.short_description:'');
   const onShortDescChange = (content) => {
     console.log('onChange', content);
     setShortDesc(content);
@@ -107,6 +121,7 @@ const AddProduct = (props) => {
                   id='product-name'
                   placeholder=''
                   name='product-name' 
+                  value={name}
                   onChange={handleProductName}
                 />  
               </td>

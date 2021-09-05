@@ -5,7 +5,7 @@ import { getDefaultHeaders, getUrl } from './util';
 const getProducts = (params) => {
   const url = getUrl('getProducts');
   // console.log("urllll + " +url)
-  return axios.get(url);
+  return axios.get(url, {params:params});
 }
 
 const deleteProduct = (id) => {

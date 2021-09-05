@@ -57,7 +57,7 @@ const ProductManagement = (props) => {
   }, []);
 
   const AddProduct = () => {
-    Router.push('/admin/add-product');
+    Router.push('/admin/product');
   }
 
   const DeleteProduct = (id) => {
@@ -77,6 +77,10 @@ const ProductManagement = (props) => {
     })
   }
 
+  const EditProduct = (id) => {
+    Router.push('/admin/product?pid=' + id);
+  }
+
   const renderProductTable = () => {
     return (
       (products != undefined && products.length > 0) ? products.map(p => (
@@ -85,7 +89,7 @@ const ProductManagement = (props) => {
           <td>{p.name}</td>
           <td> 
             <div style={{display:'flex'}}>
-              <div className='option-btn'>
+              <div className='option-btn' onClick={() => {EditProduct(p.id)}}>
                 <Edit style={{verticalAlign:'midde'}}/>
                 <div>Sửa</div>
               </div>

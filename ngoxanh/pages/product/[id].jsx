@@ -1,12 +1,12 @@
-import { useRouter } from 'next/router'
-import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
-import Carousel from 'react-bootstrap/Carousel'
+import { useRouter } from 'next/router';
+import Image from 'next/image';
+import styles from '../../styles/Home.module.css';
+import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import PageHeader from '../../components/header/header';
 import StickyPart from '../../components/header/sticky-part';
-import sampleData from '../../public/getProducts.json'
+import sampleData from '../../public/getProducts.json';
 
 export async function getServerSideProps(context) {
   // const user = await getSessionFromContext(context);
