@@ -37,6 +37,7 @@ export async function getServerSideProps(context) {
 }
 
 const ProductManagement = (props) => {
+  const [products, setProducts] = useState(props.products);
   const [isSticky, setSticky] = useState(false);
   const headerRef = useRef(null);
   const handleScroll = () => {
@@ -59,9 +60,26 @@ const ProductManagement = (props) => {
     Router.push('/admin/add-product');
   }
 
+  const DeleteProduct = (id) => {
+    deleteProduct(id)
+    .then((res) => {
+      console.log(res.data);
+      const refreshProduct = getProducts().then(ress => { 
+        // console.log("ress   " + JSON.stringify(ress.data.data));
+        setProducts(ress.data.data);
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+    })
+    .finally(()=> {
+      // setIsLoading(false);
+    })
+  }
+
   const renderProductTable = () => {
     return (
-      (props.products != undefined && props.products.length > 0) ? props.products.map(p => (
+      (products != undefined && products.length > 0) ? products.map(p => (
         <tr key={p.id}>
           <td>{p.id}</td>
           <td>{p.name}</td>
@@ -71,7 +89,7 @@ const ProductManagement = (props) => {
                 <Edit style={{verticalAlign:'midde'}}/>
                 <div>Sửa</div>
               </div>
-              <div className='option-btn'>
+              <div className='option-btn' onClick={() => {DeleteProduct(p.id)}}>
                 <Delete style={{verticalAlign:'midde'}}/>
                 <div>Xóa</div>
               </div>

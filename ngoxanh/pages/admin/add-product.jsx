@@ -34,6 +34,7 @@ export async function getServerSideProps(context) {
 }
 
 const AddProduct = (props) => {
+  const [isLoading, setIsLoading] = useState(false);
   const [name, setName] = useState('');
   const [desc, setDesc] = useState('desc');
   const [shortDesc, setShortDesc] = useState('short desc');
@@ -61,10 +62,7 @@ const AddProduct = (props) => {
 
   const handleProductName = (e) => {
     let {value} = e.target;
-    setName({
-      ...name,
-      'name': value
-    })
+    setName(value);
   }
 
   const editProduct = () => {
@@ -76,15 +74,17 @@ const AddProduct = (props) => {
       body['desc'] = desc;
       body['shortDesc'] = shortDesc;
 
+      setIsLoading(true);
       createProduct(body)
       .then((res) => {
         console.log(res.data);
+        Router.push('/admin/product-management');
       })
       .catch((err) => {
         console.log(err);
       })
       .finally(()=> {
-        // Router.push('/admin/product-management');
+        setIsLoading(false);
       })
     }
   }
