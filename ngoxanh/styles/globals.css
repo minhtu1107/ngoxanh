@@ -18,12 +18,14 @@ body {
 .loading {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
   position: fixed;
-  top: 50vh;
+  top: 0;
   width: 100%;
   height: 100%;
+  background-color: antiquewhite;
+  opacity: 0.5;
 }
 
 .cover-header {

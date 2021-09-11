@@ -156,15 +156,13 @@ const AddProduct = (props) => {
   }
 
   const handleDeleteMainImage = (img) => {
-    setDeleteImages([...img]);
+    setDeleteImages([...deleteImages, img]);
     setCurrentMainImage('deleted');
   }
 
   const handleDeleteSecondImage = (img) => {
-    console.log("handleDeleteSecondImage bf ", deleteImages)
     setDeleteImages([...deleteImages, img]);
     let temp = currentSecondImage.filter(ii=>ii!==img);
-    console.log("handleDeleteSecondImage ", deleteImages)
     setCurrentSecondImage(temp);
   }
 
