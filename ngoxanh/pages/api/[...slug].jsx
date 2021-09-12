@@ -17,7 +17,7 @@ export default async (req, res) => {
             }
   };
 
-  console.log("request " + JSON.stringify(req.body));
+  console.log("request " + params.params.id);
 
   debugger
   return axios(params)

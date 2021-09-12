@@ -339,3 +339,24 @@ body {
 .ql-editor{
   min-height:200px;
 }
+
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: inherit;
+  height: 80vh;
+  justify-content: center;
+}
+
+.btn-container {
+  padding: 5px;
+}
+
+.btn-admin {
+  width: 20vw;
+}
+
+.modal {
+  top:30vh !important;
+}

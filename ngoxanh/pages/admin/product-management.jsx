@@ -6,12 +6,13 @@ import { getProducts, deleteProduct } from '../../services/product';
 
 import { Edit, Delete, AddBox } from '@material-ui/icons';
 
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.css';
+
 // import 'bootstrap/dist/css/bootstrap.css';
-
+import ReactLoading from 'react-loading';
 import AdminHeader from '../../components/admin/header';
-
-// import sampleData from '../../public/getProducts.json';
-// import AddProduct from './add-product';
 
 export async function getServerSideProps(context) {
   const user = await getSessionFromContext(context);
@@ -37,9 +38,15 @@ export async function getServerSideProps(context) {
 }
 
 const ProductManagement = (props) => {
+  const [isLoading, setIsLoading] = useState(false);
   const [products, setProducts] = useState(props.products);
   const [isSticky, setSticky] = useState(false);
   const headerRef = useRef(null);
+
+  const [showDeletePopup, setShowDeletePopup] = useState(false);
+  const [deteteName, setDeleteName] = useState('');
+  const [deteteId, setDeleteId] = useState(-1);
+
   const handleScroll = () => {
     if (headerRef.current) {
       // console.log('window ' + window.pageYOffset)
@@ -61,11 +68,12 @@ const ProductManagement = (props) => {
   }
 
   const DeleteProduct = (id) => {
+    setIsLoading(true);
     deleteProduct(id)
     .then((res) => {
       console.log(res.data);
       const refreshProduct = getProducts().then(ress => { 
-        // console.log("ress   " + JSON.stringify(ress.data.data));
+        console.log("ress   " + ress.data.data);
         setProducts(ress.data.data);
       });
     })
@@ -73,12 +81,18 @@ const ProductManagement = (props) => {
       console.log(err);
     })
     .finally(()=> {
-      // setIsLoading(false);
+      setIsLoading(false);
     })
   }
 
   const EditProduct = (id) => {
     Router.push('/admin/product?pid=' + id);
+  }
+
+  const handleDeleteClick = (name, id) => {
+    setDeleteName(name);
+    setDeleteId(id);
+    setShowDeletePopup(true);
   }
 
   const renderProductTable = () => {
@@ -93,7 +107,7 @@ const ProductManagement = (props) => {
                 <Edit style={{verticalAlign:'midde'}}/>
                 <div>Sửa</div>
               </div>
-              <div className='option-btn' onClick={() => {DeleteProduct(p.id)}}>
+              <div className='option-btn' onClick={() => {handleDeleteClick(p.name, p.id)}}>
                 <Delete style={{verticalAlign:'midde'}}/>
                 <div>Xóa</div>
               </div>
@@ -103,6 +117,35 @@ const ProductManagement = (props) => {
       )) : (<tr>
         <td colSpan='3'>Chưa có sản phẩm</td>
       </tr>)
+    )
+  }
+
+  const handlePopupDeleteClick = () => {
+    setShowDeletePopup(false);
+    setDeleteName('');
+    setDeleteId(-1);
+    DeleteProduct(deteteId);
+  }
+
+  const handlePopupCancelClick = () => {
+    setShowDeletePopup(false);
+    setDeleteName('');
+    setDeleteId(-1);
+  } 
+
+  const renderModal = () => {
+    return (
+      <Modal show={true}>
+        <Modal.Body>Xóa sản phẩm <span style={{color:'blue', fontWeight:'bold'}}>{deteteName}</span>?</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handlePopupCancelClick}>
+            Không
+          </Button>
+          <Button variant="primary" onClick={handlePopupDeleteClick}>
+            Xóa
+          </Button>
+        </Modal.Footer>
+      </Modal>
     )
   }
 
@@ -122,7 +165,7 @@ const ProductManagement = (props) => {
                     <div style={{flex:1}}>Tùy chỉnh</div>
                     <div className='option-btn' onClick={AddProduct}>
                       <AddBox style={{verticalAlign:'midde'}}/>
-                      <div>Them</div>
+                      <div>Thêm</div>
                     </div>
                   </div>
                 </th>
@@ -135,6 +178,10 @@ const ProductManagement = (props) => {
         </div>
       </div>
       <div style={{minHeight:'10vh'}}></div>
+      {showDeletePopup && renderModal()}
+      {isLoading && (<div className='loading'>
+        <ReactLoading type='spinningBubbles' color='#0d6efd' />
+      </div>)}
     </div>
   )
 }

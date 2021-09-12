@@ -143,7 +143,7 @@ const AddProduct = (props) => {
       createProduct(body)
       .then((res) => {
         console.log(res.data);
-        // Router.push('/admin/product-management');
+        Router.push('/admin/product-management');
       })
       .catch((err) => {
         console.log('res.data');
@@ -266,58 +266,6 @@ const AddProduct = (props) => {
             <tr>
               <td>Ảnh đại diện</td>
               <td>
-                {/* <div>
-                    <div className="dzu-previewContainer" style={{
-                      justifyContent:'space-evenly',
-                      minHeight: 'unset',
-                      height:120,
-                      width:180,
-                      float:'left',
-                      padding: '40px 1%'
-                    }}>
-                      <img className="dzu-previewImage" 
-                      style={{maxHeight: 100,
-                      maxWidth:'unset'}}src={props.product.image} />
-                      <div className="dzu-previewStatusContainer">
-                        <Close/>
-                      </div>
-                    </div>
-                </div>
-                <Dropzone
-                  // getUploadParams={getUploadParams}
-                  onChangeStatus={handleMainImageChangeStatus}
-                  // onSubmit={handleSubmit}
-                  maxFiles={1}
-                  accept="image/*"
-                  inputContent="Drag Files or Click to Browse"
-                  styles={{
-                    dropzone: {
-                      overflow: 'auto',
-                      height: 150,
-                      flexDirection: 'row',
-                      alignItems: 'unset',
-                      display: 'block'
-                    },
-                    dropzoneActive: { borderColor: 'green' },
-                    previewImage: {
-                      maxHeight: 100,
-                      maxWidth: 'unset'
-                    },
-                    preview: {
-                      justifyContent: 'space-evenly',
-                      minHeight: 'unset',
-                      height: 120, width: 180,
-                      float: 'left',
-                      padding: '40px 1%'
-                    },
-                    inputLabelWithFiles: {
-                      alignSelf: 'center',
-                      margin: '45px 0px 0px 0px',
-                      width: '100px',
-                      float: 'left'
-                    }
-                  }}
-                /> */}
                 {(currentMainImage != null && currentMainImage !== 'deleted')
                   ? renderCurrentImage([currentMainImage], handleDeleteMainImage)
                   : renderUploadImage(1, handleMainImageChangeStatus)}
@@ -328,41 +276,6 @@ const AddProduct = (props) => {
               <td>
                 {renderCurrentImage(currentSecondImage, handleDeleteSecondImage)}
                 {renderUploadImage(5-currentSecondImage.length, handleChangeStatus)}
-                {/* <Dropzone
-                  // getUploadParams={getUploadParams}
-                  onChangeStatus={handleChangeStatus}
-                  // onSubmit={handleSubmit}
-                  maxFiles={5}
-                  accept="image/*"
-                  inputContent="Drag Files or Click to Browse (Up to 5 files)"
-                  styles={{
-                    dropzone: {
-                      overflow: 'auto',
-                      height: 150,
-                      flexDirection: 'row',
-                      alignItems: 'unset',
-                      display: 'block'
-                    },
-                    dropzoneActive: { borderColor: 'green' },
-                    previewImage: {
-                      maxHeight: 100,
-                      maxWidth: 'unset'
-                    },
-                    preview: {
-                      justifyContent: 'space-evenly',
-                      minHeight: 'unset',
-                      height: 120, width: 180,
-                      float: 'left',
-                      padding: '40px 1%'
-                    },
-                    inputLabelWithFiles: {
-                      alignSelf: 'center',
-                      margin: '45px 0px 0px 0px',
-                      width: '100px',
-                      float: 'left'
-                    }
-                  }}
-                /> */}
               </td>
             </tr>
             <tr>
