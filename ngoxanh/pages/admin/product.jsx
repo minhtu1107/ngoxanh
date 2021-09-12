@@ -7,11 +7,7 @@ import { Close } from '@material-ui/icons';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import 'bootstrap/dist/css/bootstrap.css';
-
-// import sampleData from '../../public/getProducts.json';
-
-import { getProducts } from '../../services/product';
+import { getProducts, createProduct } from '../../services/product';
 
 // import ReactQuill from 'react-quill';
 const ReactQuill = typeof window === 'object' ? require('react-quill') : () => false;
@@ -21,7 +17,6 @@ import 'react-dropzone-uploader/dist/styles.css';
 import Dropzone from 'react-dropzone-uploader';
 
 import AdminHeader from '../../components/admin/header';
-import { createProduct } from '../../services/product';
 import ReactLoading from 'react-loading';
 
 export async function getServerSideProps(context) {

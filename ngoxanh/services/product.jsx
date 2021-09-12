@@ -48,6 +48,7 @@ const createProduct = (body) => {
     formData.append('deleteMainImage', 'deleted');
   }
 
+  //second images file
   if(body.images) {
     body.images.forEach(f => {
       // console.log(f.file);
@@ -55,6 +56,7 @@ const createProduct = (body) => {
     });
   }
 
+  //name of keep second images
   if(body.secondImages) {
     body.secondImages.forEach(f => {
       // console.log(f.file);

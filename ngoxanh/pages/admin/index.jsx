@@ -23,7 +23,7 @@ export async function getServerSideProps(context) {
 const Admin = (props) => {
 
   const gotoAvatarManagement = () => {
-    Router.push('/admin/product-management');
+    Router.push('/admin/site-photo');
   }
 
   const gotoProductManagement = () => {

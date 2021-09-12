@@ -18,7 +18,45 @@ const logout = (params) => {
   return axios.post(url, params);
 }
 
+const getAvatar = (params) => {
+  const url = getUrl('getAvatar');
+  return axios.get(url, {params:params});
+}
+
+const uploadAvatar = (body) => {
+  //send to api directly
+  let formData = new FormData();
+
+  if(body.coverFile) {
+    formData.append('coverFile', body.coverFile[0].file);
+  }
+
+  if(body.avatarFile) {
+    formData.append('avatarFile', body.avatarFile[0].file);
+  }
+
+  if(body.deleteAvatar) {
+    formData.append('deleteAvatar', body.deleteAvatar[0]);
+  }
+
+  if(body.deleteCover) {
+    formData.append('deleteCover', body.deleteCover[0]);
+  }
+
+  const params = {
+    method: 'post',
+    url: 'https://ngoxanh.000webhostapp.com/api/uploadAvatar',
+    headers: {
+      'Content-Type':'multipart/form-data',
+    },
+    data: formData,
+  };
+  return axios(params);
+}
+
 export {
   login,
   logout,
+  getAvatar,
+  uploadAvatar,
 };
