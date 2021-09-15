@@ -165,6 +165,8 @@ body {
   float: left;
   padding: 10px;
   cursor: pointer;
+  color: unset;
+  text-decoration: unset;
 }
 
 .product-card {
@@ -361,4 +363,22 @@ body {
 
 .modal {
   top:30vh !important;
+}
+
+.contact-link {
+  align-self: flex-end;
+  padding-top: 10px;
+}
+
+.contact-detail {
+  padding: 5vh 10vw;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  margin-top: 50px;
 }
