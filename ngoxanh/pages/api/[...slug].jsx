@@ -13,7 +13,8 @@ export default async (req, res) => {
     },
     data: req.body,
     params: { id: req.query.id || -1,
-              page: req.query.page || -1
+              page: req.query.page || -1,
+              limit: req.query.limit || -1
             }
   };
 

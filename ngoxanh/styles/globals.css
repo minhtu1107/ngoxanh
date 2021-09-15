@@ -124,6 +124,7 @@ body {
   flex-direction: column;
   align-self: flex-start; */
   width: 100%;
+  min-height: 100vh;
 }
 
 .card-img-container {

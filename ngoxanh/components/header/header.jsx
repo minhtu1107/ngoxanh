@@ -7,9 +7,9 @@ const PageHeader = (props) => {
   return (
     <div className='cover-header'>
       <div className='cover-img'>
-        <img className='cover-img' src='/images/header.jpg'/>
+        <img className='cover-img' src={props.cover?props.cover:'/images/header.jpg'}/>
       </div>
-      <StickyPart />
+      <StickyPart avatar={props.avatar}/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
-import { useRouter } from 'next/router';
-import Image from 'next/image';
+import Router, { useRouter } from 'next/router';
+import { redirectTo } from '../../services/util';
+import { getProducts } from '../../services/product';
 import styles from '../../styles/Home.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -14,29 +15,54 @@ export async function getServerSideProps(context) {
     // redirectTo(context, '/auth/signin');
   // }
 
-  // const products = await getProducts();
-  /*.then(res => { 
-      console.log(res.data);
-      return res.data;
-    });*/
-    
-  // console.log(products.data.data);
-  const id = context.query.id;
+  const id = parseInt(context.query.id) || -1;
+  let product = null;
+  if(id>0) {
+    let param = {};
+    param['id'] = id;
+    const temp = await getProducts(param);
+    if(temp.data.data.length>0) {
+      console.log(temp.data.data[0]);
+      product = temp.data.data[0];
+      if(product.secondary_images != null) {
+        product.secondImage = JSON.parse(product.secondary_images);
+      }
+    }
+  }
+
+  if(product == null)
+    redirectTo(context, '/error');
 
   return {
     props: {
       // user,
       // products: products.data.data,
-      product: sampleData.dataList[id-1],
+      product: product,
     }
   };
 }
 
 const ProductDetail = (props) => {
   // const router = useRouter();
-  // const { id } = router.query
+  // const { id } = router.query;
 
-  const tes = 'a <br/> b';
+  const renderSlideImage = () => {
+    let temp = props.product.secondImage;
+    if(!temp || temp.length <=0) {
+      if(props.product.image)
+        temp = [props.product.image];
+      else
+        temp = ['/images/no-image.png'];
+    }
+    return (
+      temp.map((p, idx) => (
+        <Carousel.Item style={{textAlign: 'center'}} key={idx}>
+          <img src={p} alt={props.product.name} className='product-detail-img' />
+        </Carousel.Item>
+      ))
+    )
+  }
+
   return (
     <div>
       <StickyPart forceSticky={true} />
@@ -44,9 +70,8 @@ const ProductDetail = (props) => {
         <div className='product-detail-title'>{props.product.name}</div>
         <div className='desc-container'>
           <div style={{flex:1}}>
-            {/* <img src={props.product.image} alt={props.product.name} className='product-detail-img' /> */}
             <Carousel variant="dark">
-              <Carousel.Item style={{textAlign: 'center'}}>
+              {/* <Carousel.Item style={{textAlign: 'center'}}>
                 <img src={props.product.image} alt={props.product.name} className='product-detail-img' />
               </Carousel.Item>
               <Carousel.Item style={{textAlign: 'center'}}>
@@ -54,7 +79,8 @@ const ProductDetail = (props) => {
               </Carousel.Item>
               <Carousel.Item style={{textAlign: 'center'}}>
                 <img src={props.product.image} alt={props.product.name} className='product-detail-img' />
-              </Carousel.Item>
+              </Carousel.Item> */}
+              {renderSlideImage()}
             </Carousel>
           </div>
           <div style={{flex:1}}>
@@ -66,7 +92,7 @@ const ProductDetail = (props) => {
       </div>
       
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -75,7 +101,8 @@ const ProductDetail = (props) => {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </a> */}
+        <div style={{minHeight:'10vh'}}></div>
       </footer>
     </div>
   )

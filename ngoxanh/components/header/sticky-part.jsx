@@ -28,7 +28,7 @@ const StickyPart = (props) => {
   return (
     <div ref={logoRef}>
       <div className={`logo${isSticky ? ' sticky-logo' : ''}`}>
-        <img className='logo-img' src='/images/logo.jpg' onClick={gotoHome}/>
+        <img className='logo-img' src={props.avatar?props.avatar:'/images/logo.jpg'} onClick={gotoHome}/>
         <div className={`header-title${isSticky ? '' : ' header-title-sticky'}`} onClick={gotoHome}>Ngo xanh thien lanh</div>
         <div className='search-header-container'>
           <input
