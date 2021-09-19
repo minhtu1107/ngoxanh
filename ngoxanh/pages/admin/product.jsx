@@ -3,6 +3,7 @@ import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
 import { Close } from '@material-ui/icons';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -66,7 +67,7 @@ const AddProduct = (props) => {
 
   const onShortDescChange = (content) => {
     console.log('onChange', content);
-    setShortDesc(content);
+    setShortDesc(content.target.value);
   }
 
   const onDescChange = (content) => {
@@ -276,7 +277,8 @@ const AddProduct = (props) => {
             <tr>
               <td>Mô tả ngắn</td>
               <td>
-                <ReactQuill className='quill-text' value={shortDesc} onChange={onShortDescChange} />
+                {/* <ReactQuill className='quill-text' value={shortDesc} onChange={onShortDescChange} /> */}
+                <TextareaAutosize className='textarea-short-desc' value={shortDesc} onChange={onShortDescChange} />
               </td>
             </tr>
             <tr>

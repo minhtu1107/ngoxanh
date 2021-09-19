@@ -382,3 +382,11 @@ body {
 .contact-container {
   margin-top: 50px;
 }
+
+.textarea-short-desc {
+	height: 125px;
+	overflow: hidden;
+	width: 100%;
+	min-height: 125px;
+	max-height: 125px;
+}
