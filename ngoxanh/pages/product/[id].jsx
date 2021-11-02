@@ -69,7 +69,7 @@ const ProductDetail = (props) => {
       <div className='product-detail-container'>
         <div className='product-detail-title'>{props.product.name}</div>
         <div className='desc-container'>
-          <div style={{flex:1}}>
+          <div className='desc-slide-container'>
             <Carousel variant="dark">
               {/* <Carousel.Item style={{textAlign: 'center'}}>
                 <img src={props.product.image} alt={props.product.name} className='product-detail-img' />
@@ -83,7 +83,8 @@ const ProductDetail = (props) => {
               {renderSlideImage()}
             </Carousel>
           </div>
-          <div style={{flex:1}}>
+          <div className='product-detail-desc-container'>
+            <div className='product-detail-desc-title'>Giá: 10.000VNĐ</div>
             <div className='product-detail-desc-title'>Mô tả:</div>
             <div className='product-detail-desc'
               dangerouslySetInnerHTML={{ __html: props.product.description.replace(/(?:\r\n|\r|\n)/g, '<br>') }}></div>
