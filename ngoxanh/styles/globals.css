@@ -132,10 +132,20 @@ body {
   height: 180px;
   justify-content: center;
   background-color: blanchedalmond;
+  position: relative;
 }
 
 .card-img-custom {
   height: inherit;
+  width: inherit!important;
+}
+
+.card-price {
+  position: absolute;
+  /* top: 180px; */
+  left: 5px;
+  bottom: 5px;
+  color: white;
 }
 
 .top-product-title {
@@ -161,16 +171,18 @@ body {
 }
 
 .product {
-  width: 20%;
+  width: 300px;
   float: left;
   padding: 10px;
   cursor: pointer;
   color: unset;
   text-decoration: unset;
+  position: relative;
 }
 
 .product-card {
   background-color: lavender;
+  position: relative;
 }
 
 .product-title {
@@ -184,7 +196,7 @@ body {
 
 .card-product-body {
   height: 125px;
-  padding: 7px;
+  padding: 7px!important;
 }
 
 .product-detail-container {

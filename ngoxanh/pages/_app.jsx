@@ -3,6 +3,7 @@ import NextApp from 'next/app';
 import Router, { withRouter } from 'next/router';
 import { Provider } from 'next-auth/client';
 import '../styles/globals.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import ReactLoading from 'react-loading';
 

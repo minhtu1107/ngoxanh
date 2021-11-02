@@ -9,6 +9,7 @@ const Products = (props) => {
       <a key={p.id} className='product' onClick={()=>{Router.push(`/product/${p.id}`);}}>
         <Card className='product-card'>
           <div className='card-img-container'>
+            <div className='card-price'>10.000 VNĐ</div>
             <Card.Img variant='top' src={p.image} className='card-img-custom' />
           </div>
           <Card.Body className='card-product-body'>
