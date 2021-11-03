@@ -1,4 +1,6 @@
 import moment from 'moment';
+
+var numeral = require('numeral');
 // const lang = require('../locale/lang.json')
 
 export const getUrl = (path) => {
@@ -94,4 +96,12 @@ export const validationEvaluationTitle = (title, regexp) => {
   }else{
     return false;
   }
+}
+
+export const formatVND = (value) => {
+  return numeral(value).format('0,0');
+}
+
+export const vndToInteger = (value) => {
+  return numeral(value).value();
 }

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getSessionFromContext } from '../../services/auth';
@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import { getProducts, createProduct } from '../../services/product';
+import { formatVND, vndToInteger } from '../../services/util';
 
 // import ReactQuill from 'react-quill';
 const ReactQuill = typeof window === 'object' ? require('react-quill') : () => false;
@@ -64,6 +65,13 @@ const AddProduct = (props) => {
   const [currentMainImage, setCurrentMainImage] = useState(props.image!=null?props.image:null);
   const [currentSecondImage, setCurrentSecondImage] = useState(props.secondImage);
   const [deleteImages, setDeleteImages] = useState([]);
+  const [price, setPrice] = useState(props.product!=undefined?formatVND(props.product.price):'500');
+
+  const [isQillReady, setIsQillReady] = useState(false);
+
+  useEffect(() => {
+    setIsQillReady(true);
+  }, []);
 
   const onShortDescChange = (content) => {
     console.log('onChange', content);
@@ -100,12 +108,18 @@ const AddProduct = (props) => {
     setName(value);
   }
 
+  const handleProductPrice = (e) => {
+    let {value} = e.target;
+    setPrice(formatVND(value));
+  }
+
   const editProduct = () => {
     if(name==='') {
 
     } else {
       let body = {};
       body['name'] = name;
+      body['price'] = vndToInteger(price);
       body['desc'] = desc;
       body['shortDesc'] = shortDesc;
 
@@ -260,6 +274,20 @@ const AddProduct = (props) => {
               </td>
             </tr>
             <tr>
+              <td className='product-field'>Giá (VND)</td>
+              <td className='product-value'>
+                <input
+                  style={{width:'100%', marginTop:'20px', marginBottom:'20px'}}
+                  type='text'
+                  id='product-price'
+                  placeholder=''
+                  name='product-price' 
+                  value={price}
+                  onChange={handleProductPrice}
+                />  
+              </td>
+            </tr>
+            <tr>
               <td>Ảnh đại diện</td>
               <td>
                 {(currentMainImage != null && currentMainImage !== 'deleted')
@@ -277,14 +305,13 @@ const AddProduct = (props) => {
             <tr>
               <td>Mô tả ngắn</td>
               <td>
-                {/* <ReactQuill className='quill-text' value={shortDesc} onChange={onShortDescChange} /> */}
                 <TextareaAutosize className='textarea-short-desc' value={shortDesc} onChange={onShortDescChange} />
               </td>
             </tr>
             <tr>
               <td>Mô tả chi tiết</td>
               <td>
-                <ReactQuill className='quill-text' value={desc} onChange={onDescChange} />
+                {isQillReady && ReactQuill ? <ReactQuill className='quill-text' value={desc} onChange={onDescChange} />:''}
               </td>
             </tr>
           </tbody>

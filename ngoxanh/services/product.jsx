@@ -36,6 +36,7 @@ const createProduct = (body) => {
   //send to api directly
   let formData = new FormData();
   formData.append('name', body.name);
+  formData.append('price', body.price);
   formData.append('desc', body.desc);
   formData.append('shortDesc', body.shortDesc);
 

@@ -1,6 +1,7 @@
 import Router from 'next/router';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { formatVND } from '../../services/util';
 
 const Products = (props) => {
   const shortDescLength = 120;
@@ -9,7 +10,7 @@ const Products = (props) => {
       <a key={p.id} className='product' onClick={()=>{Router.push(`/product/${p.id}`);}}>
         <Card className='product-card'>
           <div className='card-img-container'>
-            <div className='card-price'>10.000 VNĐ</div>
+            <div className='card-price'>{formatVND(p.price) + ' VNĐ'}</div>
             <Card.Img variant='top' src={p.image} className='card-img-custom' />
           </div>
           <Card.Body className='card-product-body'>

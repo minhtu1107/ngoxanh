@@ -9,6 +9,8 @@ import PageHeader from '../../components/header/header';
 import StickyPart from '../../components/header/sticky-part';
 import sampleData from '../../public/getProducts.json';
 
+import { formatVND } from '../../services/util';
+
 export async function getServerSideProps(context) {
   // const user = await getSessionFromContext(context);
   // if (!user) {
@@ -84,7 +86,7 @@ const ProductDetail = (props) => {
             </Carousel>
           </div>
           <div className='product-detail-desc-container'>
-            <div className='product-detail-desc-title'>Giá: 10.000VNĐ</div>
+            <div className='product-detail-desc-title'>{'Giá: ' + formatVND(props.product.price) + 'VNĐ'}</div>
             <div className='product-detail-desc-title'>Mô tả:</div>
             <div className='product-detail-desc'
               dangerouslySetInnerHTML={{ __html: props.product.description.replace(/(?:\r\n|\r|\n)/g, '<br>') }}></div>
