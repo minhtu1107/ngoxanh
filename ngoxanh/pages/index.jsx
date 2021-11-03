@@ -11,6 +11,8 @@ import styles from '../styles/Home.module.css'
 import TopProduct from '../components/top-product/top-product';
 import sampleData from '../public/getProducts.json'
 
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 export async function getServerSideProps(context) {
   // const user = await getSessionFromContext(context);
   // if (!user) {
@@ -70,6 +72,10 @@ export default function Home(props) {
       </main>
       <TopProduct
         products={products}
+      />
+      <MessengerCustomerChat
+        pageId="106892301793208"
+        appId="248228230701937"
       />
       <footer className={styles.footer}>
         {/* <a
