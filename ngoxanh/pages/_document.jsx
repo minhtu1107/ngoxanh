@@ -1,6 +1,7 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default class MyDocument extends Document {
   render() {
@@ -16,6 +17,10 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <MessengerCustomerChat
+            pageId="106892301793208"
+            appId="248228230701937"
+          />
         </body>
       </Html>
     );
