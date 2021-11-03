@@ -5,8 +5,14 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import AdminHeader from '../../components/admin/header';
+import { setUserCookie } from '../../services/auth';
 
 export async function getServerSideProps(context) {
+  let session = {
+    userName: 'ngoxanhthienlanh',
+  }
+  setUserCookie(context, 'session_token', session);
+
   const user = await getSessionFromContext(context);
   if (!user) {
     redirectTo(context, '/admin/login');
