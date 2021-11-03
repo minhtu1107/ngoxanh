@@ -6,6 +6,7 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import ReactLoading from 'react-loading';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const App = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -15,6 +16,10 @@ const App = ({ children }) => {
       {isLoading && (<div className='loading'>
         <ReactLoading type='spinningBubbles' color='#0d6efd' />
       </div>)}
+      <MessengerCustomerChat
+        pageId="106892301793208"
+        appId="248228230701937"
+      />
     </>
   );
 }
