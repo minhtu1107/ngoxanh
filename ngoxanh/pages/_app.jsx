@@ -17,7 +17,8 @@ const App = ({ children }) => {
         <ReactLoading type='spinningBubbles' color='#0d6efd' />
       </div>)}
       <MessengerCustomerChat
-        pageId="106892301793208"
+        // pageId="106892301793208"
+        pageId="100327598522537"
         appId="248228230701937"
       />
     </>
