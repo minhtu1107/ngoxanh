@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import PageHeader from '../../components/header/header';
+import PageFooter from '../components/footer/footer';
 import StickyPart from '../../components/header/sticky-part';
 import sampleData from '../../public/getProducts.json';
 
@@ -95,16 +96,7 @@ const ProductDetail = (props) => {
       </div>
       
       <footer className={styles.footer}>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a> */}
+        <PageFooter />
         <div style={{minHeight:'10vh'}}></div>
       </footer>
     </div>

@@ -3,7 +3,6 @@ import { Place, Email, Phone, Facebook } from '@material-ui/icons';
 const PageFooter = (props) => {
   return (
     <div className='contact-container'>
-      <div className='product-management-title'>Thông tin liên hệ</div>
       <div className='contact-detail'>
         <div className='contact-item'> 
           <Place/> 

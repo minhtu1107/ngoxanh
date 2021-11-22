@@ -8,6 +8,7 @@ import { getAvatar } from '../../services/user';
 import styles from '../../styles/Home.module.css'
 
 import PageHeader from '../../components/header/header';
+import PageFooter from '../components/footer/footer';
 import Products from '../../components/product/product-list';
 import sampleData from '../../public/getProducts.json'
 
@@ -60,18 +61,10 @@ export default function Home(props) {
         </div>
       </div>
       <div style={{minHeight:'10vh'}}></div>
-      {/* <footer className={styles.footer}> */}
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a> */}
-      {/* </footer> */}
+      <footer className={styles.footer}>
+        <PageFooter />
+        <div style={{minHeight:'10vh'}}></div>
+      </footer>
     </div>
   )
 }
