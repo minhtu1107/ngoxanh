@@ -16,7 +16,7 @@ export default function Contact(props) {
           </div>
           <div className='contact-item'> 
             <Facebook/> 
-            <div style={{padding:5}}>Facebook: https://www.facebook.com/Ng%C3%B5-Xanh-Thi%E1%BB%87n-L%C3%A0nh-100327598522537/</div>
+            <div style={{padding:5}}>Facebook: <a href='https://www.facebook.com/Ngõ-Xanh-Thiện-Lành-100327598522537/'>https://www.facebook.com/Ngõ-Xanh-Thiện-Lành-100327598522537/</a></div>
           </div>
           <div className='contact-item'> 
             <Phone/> 
