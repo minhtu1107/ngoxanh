@@ -8,7 +8,7 @@ import { getAvatar } from '../../services/user';
 import styles from '../../styles/Home.module.css'
 
 import PageHeader from '../../components/header/header';
-import PageFooter from '../components/footer/footer';
+import PageFooter from '../../components/footer/footer';
 import Products from '../../components/product/product-list';
 import sampleData from '../../public/getProducts.json'
 

@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import PageHeader from '../../components/header/header';
-import PageFooter from '../components/footer/footer';
+import PageFooter from '../../components/footer/footer';
 import StickyPart from '../../components/header/sticky-part';
 import sampleData from '../../public/getProducts.json';
 
