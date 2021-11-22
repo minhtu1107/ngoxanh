@@ -10,7 +10,7 @@ const PageFooter = (props) => {
         </div>
         <div className='contact-item'> 
           <Facebook/> 
-          <div style={{padding:5, display:'flex'}}>Facebook: <a href='https://www.facebook.com/Ngõ-Xanh-Thiện-Lành-100327598522537/' target="_blank">https://www.facebook.com/Ngõ-Xanh-Thiện-Lành/</a></div>
+          <div style={{padding:5, display:'flex'}}>{'Facebook: '}<a href='https://www.facebook.com/Ngõ-Xanh-Thiện-Lành-100327598522537/' target="_blank">https://www.facebook.com/Ngõ-Xanh-Thiện-Lành/</a></div>
         </div>
         <div className='contact-item'> 
           <Phone/> 
