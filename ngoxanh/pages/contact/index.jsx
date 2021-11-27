@@ -1,11 +1,12 @@
+import { useEffect, useState, useRef } from 'react';
 import StickyPart from '../../components/header/sticky-part';
 import { Place, Email, Phone, Facebook } from '@material-ui/icons';
 
 export default function Contact(props) {
-
+  const [name, setName] = useState(props.name?props.name:[]);
   return (
     <div>
-      <StickyPart forceSticky={true} />
+      <StickyPart name={name} forceSticky={true} />
     
       <div className='contact-container'>
         <div className='product-management-title'>Thông tin liên hệ</div>

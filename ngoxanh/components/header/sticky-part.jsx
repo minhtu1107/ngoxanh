@@ -1,9 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Router from 'next/router';
+import Select from 'react-select';
 
 const StickyPart = (props) => {
 
   const [isSticky, setSticky] = useState(props.forceSticky?true:false);
+  const [name, setName] = useState(props.name);
+
   const logoRef = useRef(null);
   const handleScroll = () => {
     if (logoRef.current && !props.forceSticky) {
@@ -25,13 +28,20 @@ const StickyPart = (props) => {
     Router.push('/');
   }
 
+  const handleChange = (selectedOption) => {
+    console.log(`Option selected:`, selectedOption);
+    if(selectedOption) {
+      Router.push(`/product/${electedOption.value}`);
+    }
+  };
+
   return (
     <div ref={logoRef}>
       <div className={`logo${isSticky ? ' sticky-logo' : ''}`}>
         <img className='logo-img' src={props.avatar?props.avatar:'/images/logo.jpg'} onClick={gotoHome}/>
         <div className={`header-title${isSticky ? '' : ' header-title-sticky'}`} onClick={gotoHome}>Ngo xanh thien lanh</div>
         <div className='search-header-container admin-header'>
-          <div className='menu-btn-delim'>
+          {/* <div className='menu-btn-delim'>
             <input
                 // className='search-header'
                 type='text'
@@ -39,7 +49,15 @@ const StickyPart = (props) => {
                 placeholder='Tim kiem'
                 name='s' 
             />     
-          </div>
+          </div> */}
+          <Select 
+            className='search-header'
+            options={name} placeholder='Tên sản phẩm...' 
+            isClearable={true} 
+            isSearchable={true} 
+            onChange={handleChange} 
+            instanceId='header select prod'
+            />
           <div className='menu-btn' onClick={()=>{Router.push('/contact');}}>Liên hệ</div>
         </div>
       </div> 

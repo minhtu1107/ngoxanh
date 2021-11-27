@@ -1,3 +1,4 @@
+import { useEffect, useState, useRef } from 'react';
 import Router, { useRouter } from 'next/router';
 import { redirectTo } from '../../services/util';
 import { getProducts } from '../../services/product';
@@ -48,6 +49,7 @@ export async function getServerSideProps(context) {
 const ProductDetail = (props) => {
   // const router = useRouter();
   // const { id } = router.query;
+  const [name, setName] = useState(props.name?props.name:[]);
 
   const renderSlideImage = () => {
     let temp = props.product.secondImage;
@@ -68,7 +70,7 @@ const ProductDetail = (props) => {
 
   return (
     <div>
-      <StickyPart forceSticky={true} />
+      <StickyPart name={name} forceSticky={true} />
       <div className='product-detail-container'>
         <div className='product-detail-title'>{props.product.name}</div>
         <div className='desc-container'>
