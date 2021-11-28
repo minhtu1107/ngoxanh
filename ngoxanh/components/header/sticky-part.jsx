@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Router from 'next/router';
 import Select from 'react-select';
+import { getProducts } from '../../services/product';
 
 const StickyPart = (props) => {
 
@@ -30,11 +31,28 @@ const StickyPart = (props) => {
 
   const handleChange = (selectedOption) => {
     console.log(`Option selected:`, selectedOption);
-    if(selectedOption) {
-      Router.push(`/product/${electedOption.value}`);
+    if(selectedOption && selectedOption.value) {
+      Router.push(`/product/${selectedOption.value}`);
     }
   };
 
+  const handleOpen = () => {
+    console.log(`Option handleOpen:`);
+    if(name.length==0) {
+      const products = getProducts().then(res => { 
+        // console.log(res.data);
+        let listProduct = res.data.data.map(prod => {
+          let t={value: prod.id, label: prod.name};
+          return t;
+        })
+        setName(listProduct);
+      });
+    }
+  };
+
+  const LoadingIndicator = () => {
+    return <></>;
+  }
   return (
     <div ref={logoRef}>
       <div className={`logo${isSticky ? ' sticky-logo' : ''}`}>
@@ -52,11 +70,15 @@ const StickyPart = (props) => {
           </div> */}
           <Select 
             className='search-header'
-            options={name} placeholder='Tên sản phẩm...' 
+            options={name} 
+            placeholder='Tên sản phẩm...' 
             isClearable={true} 
             isSearchable={true} 
             onChange={handleChange} 
             instanceId='header select prod'
+            onMenuOpen={handleOpen}
+            isLoading={true}
+            components={{LoadingIndicator}}
             />
           <div className='menu-btn' onClick={()=>{Router.push('/contact');}}>Liên hệ</div>
         </div>
